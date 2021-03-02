@@ -5,6 +5,19 @@ body {
     font-size: 1.1rem
 }
 
+p{
+    color: #4d4d4d;
+    text-align: justify;
+}
+
+h4{
+    color: #000000;
+}
+
+.Category{
+    padding-top: 50px;
+}
+
 ::-moz-selection {
     background: #000;
     color: #fff
