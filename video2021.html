@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- Our Story Section -->
+<div id="ourStorySection" class="svg-preloader container space-top-2">
+    <div class="w-lg-75 position-relative p-lg-9 mx-lg-auto">
+      <!-- Video Block -->
+      <div class="bg-white shadow rounded p-2">
+        <div class="height-400 bg-img-hero-center" style="background-image: url(../../assets/img/900x450/img11.jpg);">
+          <a class="js-fancybox u-media-player u-media-player--centered" href="javascript:;"
+             data-src="//vimeo.com/167434033"
+             data-speed="700"
+             data-animate-in="zoomIn"
+             data-animate-out="zoomOut"
+             data-caption="Front - Responsive Website Template">
+            <span class="u-media-player__icon u-media-player__icon--lg">
+              <span class="fas fa-play u-media-player__icon-inner mr-1"></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- End Video Block -->
+  
+      <!-- SVG Component -->
+      <div class="content-centered-y w-75 z-index-n1">
+        <figure class="ie-abstract-shapes-7">
+          <img class="js-svg-injector" src="../../assets/svg/components/abstract-shapes-7.svg" alt="Image Description"
+               data-parent="#ourStorySection">
+        </figure>
+      </div>
+      <!-- End SVG Component -->
+    </div>
+  </div>
+  <!-- Our Story Section -->
+
+
+
+
+
+
+
+  <!-- JS Implementing Plugins -->
+<script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+<script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="../../assets/js/components/hs.fancybox.js"></script>
+<script src="../../assets/js/components/hs.svg-injector.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  $(window).on('load', function () {
+    // initialization of svg injector module
+    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+  });
+
+  $(document).on('ready', function () {
+    // initialization of popups
+    $.HSCore.components.HSFancyBox.init('.js-fancybox');
+  });
+</script>
+Copy
+Popup #2 
+</body>
+</html>
